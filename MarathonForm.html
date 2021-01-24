@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Race Registration</h1>
+    <form action="/gonowhere.html">
+        <label for="fs-name">First Name</label>
+        <input type="text" id="fs-name" required>
+        <label for="ls-name">Last Name</label>
+        <input type="text" id="ls-name" required>
+        <br>    
+        <label for="race-select">Select a Race : </label><br>        
+        <input type="radio" name="race-select" id="fun-run" value="fun-run"><label for="fun-run">Fun Run 5k</label><br>
+        <input type="radio" name="race-select" id="hf-marathon" value="hf-marathon"><label for="hf-marathon">Half Marathon </label><br>
+        <input type="radio" name="race-select" id="fl-marathon" value="fl-marathon"><label for="fl-marathon">Full Marathon</label><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+        <br>
+        <label for="age-grp">Select age group : </label>
+        <select name="age-group" id="age-grp">
+            <option value="less-than-18">under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="30-50">30-50</option>
+            <option value="50+">50+</option>
+        </select>
+        <button>Register!</button>
+    </form>
+</body>
+
+</html>
