@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    width: 100%;
+    font-weight : bolder;
+    text-decoration: brown wavy underline;
+    letter-spacing: 20px;
+    font-size: 80px;
+}
+
+p{
+    font-size: 30px;
+    margin: 20px;
+    text-align: justify; 
+    line-height: 3;
+}
+
+h2{
+    font-size: 50px;
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+
