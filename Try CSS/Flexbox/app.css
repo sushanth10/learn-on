@@ -1,0 +1,22 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    border: 5px solid #003049;
+}
+
